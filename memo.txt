@@ -1,0 +1,79 @@
+namespace;
+
+strtoupper()
+strlen()
+$firstnameArray = explode("-", $firstname);
+str_split()// string -> array
+
+
+
+bin2hex()
+hex2bin()
+
+$firstname = strip_tags($_POST['firstname'], '<p></p>');
+$lastname = strip_tags($_POST['lastname'], '<script></script>');
+addcslashes($_POST['firstname'], 'script');
+
+$arrayTwo = [...$arrayOne, 'hello']
+
+
+define(NAME, VALUE);
+
+var_dump();
+
+error_reporting(E_ALL);
+
+print($array['qch']);
+
+unset();
+
+$users_array[] = item;
+$users_array = array_values($users_array);
+
+
+print_r($array);
+
+
+
+foreach($array as $i => $value){
+
+    unset($array[$i]));
+}
+
+
+Exemple 1:
+
+foreach($info as [$i, $value]){
+$info = [
+                        
+
+    [0, 'Théo'],
+    [1, 'Dupont'],
+    [2,'masculin'],
+    [3,'Développeur Web'],
+                        
+
+];
+
+
+Exemple 2:
+
+foreach($userData as $i => $value){
+$userData = array(
+
+            'firstname' => 'Lucie',
+            'lastname' => 'Dupont',
+            'age'   => 40,
+            'isConnected' => true,
+            'email' => 'lucie@gmail.com',
+
+
+
+
+);
+
+
+
+//class User
+//function __construct(){}
+//pseudo-variable $this
